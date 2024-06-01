@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table 5</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    table {
+        border: 1px solid rgba(128, 128, 128, 0.418);
+        border-radius: 10px;
+        padding: 30px;
+        width: 100%;
+        text-align: left;
+    }
+
+    tr,
+    td {
+        border-collapse: collapse;
+    }
+
+    td dd {
+        margin: 0;
+    }
+
+    td dd img {
+        width: 20px;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    tr td:nth-child(5) dd {
+        width: 110px;
+        height: 25px;
+        border-radius: 10px;
+        background: green;
+        line-height: 25px;
+        color: rgb(180, 255, 180);
+    }
+
+    tr {
+        position: relative;
+    }
+
+    tr:first-child::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 30px;
+        width: 100%;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+    }
+
+    tr:nth-child(2)::after,
+    tr:nth-child(3)::after,
+    tr:nth-child(4)::after,
+    tr:nth-child(5)::after,
+    tr:nth-child(6)::after,
+    tr:nth-child(7)::after,
+    tr:nth-child(8)::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 55px;
+        width: 100%;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+    }
+
+    td {
+        padding-top: 20px;
+    }
+</style>
+
+<body>
+    <table>
+        <caption>
+            <h1>Modern Finance Table Template</h1>
+        </caption>
+        <tr>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Item</th>
+            <th>Payout option</th>
+            <th>Status</th>
+            <th>&nbsp;</th>
+        </tr>
+
+        <tr>
+            <td>27.10.23</td>
+            <td>$1245</td>
+            <td>Purchase</td>
+            <td>ABC Bank</td>
+            <td>
+                <dd><img src="image/check (1).png" alt="check"> Completed</dd>
+            </td>
+            <td>
+                <dd><img src="image/visible.png" alt="visiable">
+                    <span><img src="image/dot.png" alt="dot"></span>
+                </dd>
+            </td>
+        </tr>
+        <tr>
+            <td>26.09.23</td>
+            <td>$124</td>
+            <td>Subscription</td>
+            <td>XYZ Finance</td>
+            <td>
+                <dd><img src="image/check (1).png" alt="check"> Completed</dd>
+            </td>
+            <td>
+                <dd><img src="image/visible.png" alt="visiable">
+                    <span><img src="image/dot.png" alt="dot"></span>
+                </dd>
+            </td>
+        </tr>
+        <tr>
+            <td>04.06.22</td>
+            <td>$279</td>
+            <td>Withdrawal</td>
+            <td>ABC Bank</td>
+            <td>
+                <dd><img src="image/check (1).png" alt="check"> Completed</dd>
+            </td>
+            <td>
+                <dd><img src="image/visible.png" alt="visiable">
+                    <span><img src="image/dot.png" alt="dot"></span>
+                </dd>
+            </td>
+        </tr>
+        <tr>
+            <td>02.01.21</td>
+            <td>$15</td>
+            <td>Subscription</td>
+            <td>ABC Bank</td>
+            <td>
+                <dd><img src="image/check (1).png" alt="check"> Completed</dd>
+            </td>
+            <td>
+                <dd><img src="image/visible.png" alt="visiable">
+                    <span><img src="image/dot.png" alt="dot"></span>
+                </dd>
+            </td>
+        </tr>
+        <tr>
+            <td>25.10.19</td>
+            <td>$99</td>
+            <td>Subscription</td>
+            <td>XYZ Finance</td>
+            <td>
+                <dd><img src="image/check (1).png" alt="check"> Completed</dd>
+            </td>
+            <td>
+                <dd><img src="image/visible.png" alt="visiable">
+                    <span><img src="image/dot.png" alt="dot"></span>
+                </dd>
+            </td>
+        </tr>
+        <tr>
+            <td>25.08.19</td>
+            <td>$267</td>
+            <td>Purchase</td>
+            <td>ABC Bank</td>
+            <td>
+                <dd style="background: red;"><img src="image/check (1).png" alt="check"> Completed</dd>
+            </td>
+            <td>
+                <dd><img src="image/visible.png" alt="visiable">
+                    <span><img src="image/dot.png" alt="dot"></span>
+                </dd>
+            </td>
+        </tr>
+        <tr>
+            <td>27.10.23</td>
+            <td>$1245</td>
+            <td>Purchase</td>
+            <td>ABC Bank</td>
+            <td>
+                <dd><img src="image/check (1).png" alt="check"> Completed</dd>
+            </td>
+            <td>
+                <dd><img src="image/visible.png" alt="visiable">
+                    <span><img src="image/dot.png" alt="dot"></span>
+                </dd>
+            </td>
+        </tr>
+
+
+
+    </table>
+
+</body>
+
+</html>
